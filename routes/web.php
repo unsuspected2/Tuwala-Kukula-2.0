@@ -18,3 +18,13 @@ Route::get('/', function () {
     return redirect()->route('visitantes');
 });
 Route::get('/visitantes', [VisitanteController::class, 'index'])->name('visitantes');
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified',
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
