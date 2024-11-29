@@ -8,18 +8,18 @@
   <meta name="author" content=""/>
   <title>Dashtreme - Multipurpose Bootstrap4 Admin Template</title>
   <!-- loader-->
-  <link href="assets/css/pace.min.css" rel="stylesheet"/>
-  <script src="assets/js/pace.min.js"></script>
-  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link href="asset/css/pace.min.css" rel="stylesheet"/>
+  <script src="asset/js/pace.min.js"></script>
+  <link rel="icon" href="asset/images/favicon.ico" type="image/x-icon">
   <!-- Bootstrap core CSS-->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="asset/css/bootstrap.min.css" rel="stylesheet"/>
   <!-- animate CSS-->
-  <link href="assets/css/animate.css" rel="stylesheet" type="text/css"/>
+  <link href="asset/css/animate.css" rel="stylesheet" type="text/css"/>
   <!-- Icons CSS-->
-  <link href="assets/css/icons.css" rel="stylesheet" type="text/css"/>
+  <link href="asset/css/icons.css" rel="stylesheet" type="text/css"/>
   <!-- Custom Style-->
-  <link href="assets/css/app-style.css" rel="stylesheet"/>
-  
+  <link href="asset/css/app-style.css" rel="stylesheet"/>
+
 </head>
 
 <body class="bg-theme bg-theme1">
@@ -43,7 +43,7 @@
 				  </div>
 			   </div>
 			  </div>
-			 
+
 			  <button type="button" class="btn btn-light btn-block mt-3">Reset Password</button>
 			 </form>
 		   </div>
@@ -53,11 +53,11 @@
 		  </div>
 	     </div>
 	     </div>
-    
+
      <!--Start Back To Top Button-->
     <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
     <!--End Back To Top Button-->
-	
+
 	<!--start color switcher-->
    <div class="right-sidebar">
     <div class="switcher-icon">
@@ -67,7 +67,7 @@
 
       <p class="mb-0">Gaussion Texture</p>
       <hr>
-      
+
       <ul class="switcher">
         <li id="theme1"></li>
         <li id="theme2"></li>
@@ -79,7 +79,7 @@
 
       <p class="mb-0">Gradient Background</p>
       <hr>
-      
+
       <ul class="switcher">
         <li id="theme7"></li>
         <li id="theme8"></li>
@@ -91,24 +91,24 @@
         <li id="theme14"></li>
         <li id="theme15"></li>
       </ul>
-      
+
      </div>
    </div>
   <!--end color switcher-->
-	
+
 	</div><!--wrapper-->
-	
+
   <!-- Bootstrap core JavaScript-->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-	
+  <script src="asset/js/jquery.min.js"></script>
+  <script src="asset/js/popper.min.js"></script>
+  <script src="asset/js/bootstrap.min.js"></script>
+
   <!-- sidebar-menu js -->
-  <script src="assets/js/sidebar-menu.js"></script>
-  
+  <script src="asset/js/sidebar-menu.js"></script>
+
   <!-- Custom scripts -->
-  <script src="assets/js/app-script.js"></script>
-  
-	
+  <script src="asset/js/app-script.js"></script>
+
+
 </body>
 </html>

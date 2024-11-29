@@ -8,23 +8,23 @@
   <meta name="author" content=""/>
   <title>Dashtreme Admin - Free Dashboard for Bootstrap 4 by Codervent</title>
   <!-- loader-->
-  <link href="assets/css/pace.min.css" rel="stylesheet"/>
-  <script src="assets/js/pace.min.js"></script>
+  <link href="asset/css/pace.min.css" rel="stylesheet"/>
+  <script src="asset/js/pace.min.js"></script>
   <!--favicon-->
-  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="asset/images/favicon.ico" type="image/x-icon">
   <!-- simplebar CSS-->
-  <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet"/>
+  <link href="asset/plugins/simplebar/css/simplebar.css" rel="stylesheet"/>
   <!-- Bootstrap core CSS-->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="asset/css/bootstrap.min.css" rel="stylesheet"/>
   <!-- animate CSS-->
-  <link href="assets/css/animate.css" rel="stylesheet" type="text/css"/>
+  <link href="asset/css/animate.css" rel="stylesheet" type="text/css"/>
   <!-- Icons CSS-->
-  <link href="assets/css/icons.css" rel="stylesheet" type="text/css"/>
+  <link href="asset/css/icons.css" rel="stylesheet" type="text/css"/>
   <!-- Sidebar CSS-->
-  <link href="assets/css/sidebar-menu.css" rel="stylesheet"/>
+  <link href="asset/css/sidebar-menu.css" rel="stylesheet"/>
   <!-- Custom Style-->
-  <link href="assets/css/app-style.css" rel="stylesheet"/>
-  
+  <link href="asset/css/app-style.css" rel="stylesheet"/>
+
 </head>
 
 <body class="bg-theme bg-theme1">
@@ -40,7 +40,7 @@
    <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
      <div class="brand-logo">
       <a href="index.html">
-       <img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+       <img src="asset/images/logo-icon.png" class="logo-icon" alt="logo icon">
        <h5 class="logo-text">Dashtreme Admin</h5>
      </a>
    </div>
@@ -94,14 +94,14 @@
           <i class="zmdi zmdi-account-circle"></i> <span>Registration</span>
         </a>
       </li>
-	  
+
       <li class="sidebar-header">LABELS</li>
       <li><a href="javaScript:void();"><i class="zmdi zmdi-coffee text-danger"></i> <span>Important</span></a></li>
       <li><a href="javaScript:void();"><i class="zmdi zmdi-chart-donut text-success"></i> <span>Warning</span></a></li>
       <li><a href="javaScript:void();"><i class="zmdi zmdi-share text-info"></i> <span>Information</span></a></li>
 
     </ul>
-   
+
    </div>
    <!--End sidebar-wrapper-->
 
@@ -121,7 +121,7 @@
       </form>
     </li>
   </ul>
-     
+
   <ul class="navbar-nav align-items-center right-nav-link">
     <li class="nav-item dropdown-lg">
       <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();">
@@ -172,7 +172,7 @@
 <!--End topbar header-->
 
 <div class="clearfix"></div>
-	
+
   <div class="content-wrapper">
     <div class="container-fluid">
 
@@ -196,7 +196,7 @@
             <div class="card-body border-top border-light">
                  <div class="media align-items-center">
                    <div>
-                       <img src="assets/images/timeline/html5.svg" class="skill-img" alt="skill img">
+                       <img src="asset/images/timeline/html5.svg" class="skill-img" alt="skill img">
                    </div>
                      <div class="media-body text-left ml-3">
                        <div class="progress-wrapper">
@@ -204,46 +204,46 @@
                          <div class="progress" style="height: 5px;">
                           <div class="progress-bar" style="width:65%"></div>
                          </div>
-                        </div>                   
+                        </div>
                     </div>
                   </div>
                   <hr>
                   <div class="media align-items-center">
-                   <div><img src="assets/images/timeline/bootstrap-4.svg" class="skill-img" alt="skill img"></div>
+                   <div><img src="asset/images/timeline/bootstrap-4.svg" class="skill-img" alt="skill img"></div>
                      <div class="media-body text-left ml-3">
                        <div class="progress-wrapper">
                          <p>Bootstrap 4 <span class="float-right">50%</span></p>
                          <div class="progress" style="height: 5px;">
                           <div class="progress-bar" style="width:50%"></div>
                          </div>
-                        </div>                   
+                        </div>
                     </div>
                   </div>
                    <hr>
                   <div class="media align-items-center">
-                   <div><img src="assets/images/timeline/angular-icon.svg" class="skill-img" alt="skill img"></div>
+                   <div><img src="asset/images/timeline/angular-icon.svg" class="skill-img" alt="skill img"></div>
                      <div class="media-body text-left ml-3">
                        <div class="progress-wrapper">
                          <p>AngularJS <span class="float-right">70%</span></p>
                          <div class="progress" style="height: 5px;">
                           <div class="progress-bar" style="width:70%"></div>
                          </div>
-                        </div>                   
+                        </div>
                     </div>
                   </div>
                     <hr>
                   <div class="media align-items-center">
-                   <div><img src="assets/images/timeline/react.svg" class="skill-img" alt="skill img"></div>
+                   <div><img src="asset/images/timeline/react.svg" class="skill-img" alt="skill img"></div>
                      <div class="media-body text-left ml-3">
                        <div class="progress-wrapper">
                          <p>React JS <span class="float-right">35%</span></p>
                          <div class="progress" style="height: 5px;">
                           <div class="progress-bar" style="width:35%"></div>
                          </div>
-                        </div>                   
+                        </div>
                     </div>
                   </div>
-                  
+
               </div>
         </div>
 
@@ -296,7 +296,7 @@
                             <h5 class="mt-2 mb-3"><span class="fa fa-clock-o ion-clock float-right"></span> Recent Activity</h5>
                              <div class="table-responsive">
                             <table class="table table-hover table-striped">
-                                <tbody>                                    
+                                <tbody>
                                     <tr>
                                         <td>
                                             <strong>Abby</strong> joined ACME Project Team in <strong>`Collaboration`</strong>
@@ -341,7 +341,7 @@
                   </div>
                   <div class="table-responsive">
                     <table class="table table-hover table-striped">
-                        <tbody>                                    
+                        <tbody>
                             <tr>
                                 <td>
                                    <span class="float-right font-weight-bold">3 hrs ago</span> Here is your a link to the latest summary report from the..
@@ -354,20 +354,20 @@
                             </tr>
                             <tr>
                                 <td>
-                                   <span class="float-right font-weight-bold">9/10</span> Porttitor vitae ultrices quis, dapibus id dolor. Morbi venenatis lacinia rhoncus. 
+                                   <span class="float-right font-weight-bold">9/10</span> Porttitor vitae ultrices quis, dapibus id dolor. Morbi venenatis lacinia rhoncus.
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                   <span class="float-right font-weight-bold">9/4</span> Vestibulum tincidunt ullamcorper eros eget luctus. 
+                                   <span class="float-right font-weight-bold">9/4</span> Vestibulum tincidunt ullamcorper eros eget luctus.
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                   <span class="float-right font-weight-bold">9/4</span> Maxamillion ais the fix for tibulum tincidunt ullamcorper eros. 
+                                   <span class="float-right font-weight-bold">9/4</span> Maxamillion ais the fix for tibulum tincidunt ullamcorper eros.
                                 </td>
                             </tr>
-                        </tbody> 
+                        </tbody>
                     </table>
                   </div>
                 </div>
@@ -418,7 +418,7 @@
                                 <input class="form-control" type="text" value="" placeholder="State">
                             </div>
                         </div>
-                       
+
                         <div class="form-group row">
                             <label class="col-lg-3 col-form-label form-control-label">Username</label>
                             <div class="col-lg-9">
@@ -450,20 +450,20 @@
         </div>
       </div>
       </div>
-        
+
     </div>
 
 	<!--start overlay-->
 		  <div class="overlay toggle-menu"></div>
 		<!--end overlay-->
-	
+
     </div>
     <!-- End container-fluid-->
    </div><!--End content-wrapper-->
    <!--Start Back To Top Button-->
     <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
     <!--End Back To Top Button-->
-	
+
 	<!--Start footer-->
 	<footer class="footer">
       <div class="container">
@@ -473,7 +473,7 @@
       </div>
     </footer>
 	<!--End footer-->
-	
+
 	<!--start color switcher-->
    <div class="right-sidebar">
     <div class="switcher-icon">
@@ -483,7 +483,7 @@
 
       <p class="mb-0">Gaussion Texture</p>
       <hr>
-      
+
       <ul class="switcher">
         <li id="theme1"></li>
         <li id="theme2"></li>
@@ -495,7 +495,7 @@
 
       <p class="mb-0">Gradient Background</p>
       <hr>
-      
+
       <ul class="switcher">
         <li id="theme7"></li>
         <li id="theme8"></li>
@@ -507,26 +507,26 @@
         <li id="theme14"></li>
         <li id="theme15"></li>
       </ul>
-      
+
      </div>
    </div>
   <!--end color switcher-->
-   
+
   </div><!--End wrapper-->
 
 
   <!-- Bootstrap core JavaScript-->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-	
+  <script src="asset/js/jquery.min.js"></script>
+  <script src="asset/js/popper.min.js"></script>
+  <script src="asset/js/bootstrap.min.js"></script>
+
   <!-- simplebar js -->
-  <script src="assets/plugins/simplebar/js/simplebar.js"></script>
+  <script src="asset/plugins/simplebar/js/simplebar.js"></script>
   <!-- sidebar-menu js -->
-  <script src="assets/js/sidebar-menu.js"></script>
-  
+  <script src="asset/js/sidebar-menu.js"></script>
+
   <!-- Custom scripts -->
-  <script src="assets/js/app-script.js"></script>
-	
+  <script src="asset/js/app-script.js"></script>
+
 </body>
 </html>

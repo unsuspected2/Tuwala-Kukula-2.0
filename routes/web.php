@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\VisitanteController;
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,12 +20,19 @@ Route::get('/', function () {
 });
 Route::get('/visitantes', [VisitanteController::class, 'index'])->name('visitantes');
 
-Route::middleware([
+/* Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        return redirect()->route('dashboard.index');
     })->name('dashboard');
 });
+
+Route::prefix('dashboard')->group(function () {
+    Route::get('/admin', [AdminController::class, 'index'])->name('dashboard.index');
+
+}); */
+
+Route::get('dashboard', [AdminController::class, 'index'])->name('dashboard.index');
