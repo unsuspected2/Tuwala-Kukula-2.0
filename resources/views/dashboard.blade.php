@@ -1,37 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title> Tuwala Kukula</title>
-    <!-- loader-->
-    <link href="asset/css/pace.min.css" rel="stylesheet" />
-    <script src="asset/js/pace.min.js"></script>
-    <!--favicon-->
-    <link rel="icon" href="asset/images/favicon.ico" type="image/x-icon">
-    <!-- Vector CSS -->
-    <link href="asset/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
-    <!-- simplebar CSS-->
-    <link href="asset/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
-    <!-- Bootstrap core CSS-->
-    <link href="asset/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- animate CSS-->
-    <link href="asset/css/animate.css" rel="stylesheet" type="text/css" />
-    <!-- Icons CSS-->
-    <link href="asset/css/icons.css" rel="stylesheet" type="text/css" />
-    <!-- Sidebar CSS-->
-    <link href="asset/css/sidebar-menu.css" rel="stylesheet" />
-    <!-- Custom Style-->
-    <link href="asset/css/app-style.css" rel="stylesheet" />
-
-</head>
-
-<body class="bg-theme bg-theme1">
-
+@extends('layouts.dashboard')
+@section('content')
     <!-- Start wrapper-->
     <div id="wrapper">
 
@@ -39,7 +7,7 @@
         <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
             <div class="brand-logo">
                 <a href="index.html">
-                    <img src="{{asset('img/WhatsApp Image 2024-11-20 at 23.57.31.jpeg')}}" class="logo-icon" alt="logo icon">
+                    <img src="{{ asset('img/WhatsApp Image 2024-11-20 at 23.57.31.jpeg') }}" class="logo-icon" alt="logo icon">
                     <h5 class="logo-text">Tuwala Kukula</h5>
                 </a>
             </div>
@@ -146,8 +114,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown"
-                            href="#">
+                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="#">
                             <span class="user-profile"><img src="{{ asset('img/154977360.jpg') }}" class="img-circle"
                                     alt="">{{ Auth::user()->name }}</span>
                         </a>
@@ -208,8 +175,8 @@
                                     <div class="progress my-3" style="height:3px;">
                                         <div class="progress-bar" style="width:55%"></div>
                                     </div>
-                                    <p class="mb-0 text-white small-font">Total Revenue <span
-                                            class="float-right">+1.2% <i class="zmdi zmdi-long-arrow-up"></i></span>
+                                    <p class="mb-0 text-white small-font">Total Revenue <span class="float-right">+1.2% <i
+                                                class="zmdi zmdi-long-arrow-up"></i></span>
                                     </p>
                                 </div>
                             </div>
@@ -545,41 +512,4 @@
         <!--end color switcher-->
 
     </div><!--End wrapper-->
-    {{-- responsavel por pegar a data  --}}
-    <Script>
-        function atualizarCopyright() {
-            const anoAtual = new Date().getFullYear(); // Pega o ano atual
-            const copyrightDiv = document.getElementById('copyright');
-
-            // Substitui o ano '2018' pelo ano atual
-            copyrightDiv.innerHTML = copyrightDiv.innerHTML.replace('2018', anoAtual) + '. Todos os direitos reservados.';
-        }
-
-        // Chama a função para atualizar o copyright assim que a página carregar
-        document.addEventListener('DOMContentLoaded', atualizarCopyright);
-    </Script>
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="asset/js/jquery.min.js"></script>
-    <script src="asset/js/popper.min.js"></script>
-    <script src="asset/js/bootstrap.min.js"></script>
-
-    <!-- simplebar js -->
-    <script src="asset/plugins/simplebar/js/simplebar.js"></script>
-    <!-- sidebar-menu js -->
-    <script src="asset/js/sidebar-menu.js"></script>
-    <!-- loader scripts -->
-    <script src="asset/js/jquery.loading-indicator.js"></script>
-    <!-- Custom scripts -->
-    <script src="asset/js/app-script.js"></script>
-    <!-- Chart js -->
-
-    <script src="asset/plugins/Chart.js/Chart.min.js"></script>
-
-    <!-- Index js -->
-    <script src="asset/js/index.js"></script>
-
-
-</body>
-
-</html>
+@endsection
