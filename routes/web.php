@@ -56,110 +56,45 @@ Route::delete('/admin/{id}', [AdminController::class, 'destroy'])->name('admin.d
 
 
 
+                                //Restantes
 
+// UI Icons
+Route::get('/admin/ui-icons', function(){
+    return view('dashboard.icons');
+})->name('dashboard.ui-icons');
 
+// Forms
+Route::get('/admin/forms', function(){
+    return view('dashboard.forms');
+})->name('dashboard.forms');
 
+// Tables
+Route::get('/admin/tables', function(){
+    return view('dashboard.tables');
+})->name('dashboard.tables');
 
+// Calendar
+Route::get('/admin/calendar', function(){
+    return view('dashboard.calendar');
+})->name('dashboard.calendar');
 
+// Profile
+Route::get('/admin/profile', function(){
+    return view('dashboard.profile');
+})->name('dashboard.profile');
 
+// Login
+Route::get('/admin/login', function(){
+    return view('dashboard.login');
+})->name('dashboard.login');
 
+// Registration
+Route::get('/admin/registration', function(){
+    return view('dashboard.register');
+})->name('dashboard.registration');
 
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
