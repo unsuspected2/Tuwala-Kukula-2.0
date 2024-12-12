@@ -4,80 +4,13 @@
     <div id="wrapper">
 
         <!--Start sidebar-wrapper-->
-        <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
-            <div class="brand-logo">
-                <a href="index.html">
-                    <img src="asset/images/logo-icon.png" class="logo-icon" alt="logo icon">
-                    <h5 class="logo-text">Dashtreme Admin</h5>
-                </a>
-            </div>
-            <ul class="sidebar-menu do-nicescrol">
-                <li class="sidebar-header">MAIN NAVIGATION</li>
-                <li>
-                    <a href="index.html">
-                        <i class="zmdi zmdi-view-dashboard"></i> <span>Dashboard</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="icons.html">
-                        <i class="zmdi zmdi-invert-colors"></i> <span>UI Icons</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="forms.html">
-                        <i class="zmdi zmdi-format-list-bulleted"></i> <span>Forms</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="tables.html">
-                        <i class="zmdi zmdi-grid"></i> <span>Tables</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="calendar.html">
-                        <i class="zmdi zmdi-calendar-check"></i> <span>Calendar</span>
-                        <small class="badge float-right badge-light">New</small>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="profile.html">
-                        <i class="zmdi zmdi-face"></i> <span>Profile</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="login.html" target="_blank">
-                        <i class="zmdi zmdi-lock"></i> <span>Login</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="register.html" target="_blank">
-                        <i class="zmdi zmdi-account-circle"></i> <span>Registration</span>
-                    </a>
-                </li>
-
-                <li class="sidebar-header">LABELS</li>
-                <li><a href="javaScript:void();"><i class="zmdi zmdi-coffee text-danger"></i> <span>Important</span></a>
-                </li>
-                <li><a href="javaScript:void();"><i class="zmdi zmdi-chart-donut text-success"></i> <span>Warning</span></a>
-                </li>
-                <li><a href="javaScript:void();"><i class="zmdi zmdi-share text-info"></i> <span>Information</span></a></li>
-
-            </ul>
-
-        </div>
+        @include('dashboard.header.header')
         <!--End sidebar-wrapper-->
 
         <!--Start topbar header-->
         <header class="topbar-nav">
             <nav class="navbar navbar-expand fixed-top">
-                <ul class="navbar-nav mr-auto align-items-center">
+                <ul class="mr-auto navbar-nav align-items-center">
                     <li class="nav-item">
                         <a class="nav-link toggle-menu" href="javascript:void();">
                             <i class="icon-menu menu-icon"></i>
@@ -106,10 +39,10 @@
                         <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown"
                             href="javascript:void();"><i class="fa fa-flag"></i></a>
                         <ul class="dropdown-menu dropdown-menu-right">
-                            <li class="dropdown-item"> <i class="flag-icon flag-icon-gb mr-2"></i> English</li>
-                            <li class="dropdown-item"> <i class="flag-icon flag-icon-fr mr-2"></i> French</li>
-                            <li class="dropdown-item"> <i class="flag-icon flag-icon-cn mr-2"></i> Chinese</li>
-                            <li class="dropdown-item"> <i class="flag-icon flag-icon-de mr-2"></i> German</li>
+                            <li class="dropdown-item"> <i class="mr-2 flag-icon flag-icon-gb"></i> English</li>
+                            <li class="dropdown-item"> <i class="mr-2 flag-icon flag-icon-fr"></i> French</li>
+                            <li class="dropdown-item"> <i class="mr-2 flag-icon flag-icon-cn"></i> Chinese</li>
+                            <li class="dropdown-item"> <i class="mr-2 flag-icon flag-icon-de"></i> German</li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -121,7 +54,7 @@
                             <li class="dropdown-item user-details">
                                 <a href="javaScript:void();">
                                     <div class="media">
-                                        <div class="avatar"><img class="align-self-start mr-3"
+                                        <div class="avatar"><img class="mr-3 align-self-start"
                                                 src="https://via.placeholder.com/110x110" alt="user avatar"></div>
                                         <div class="media-body">
                                             <h6 class="mt-2 user-title">Sarajhon Mccoy</h6>
@@ -131,13 +64,13 @@
                                 </a>
                             </li>
                             <li class="dropdown-divider"></li>
-                            <li class="dropdown-item"><i class="icon-envelope mr-2"></i> Inbox</li>
+                            <li class="dropdown-item"><i class="mr-2 icon-envelope"></i> Inbox</li>
                             <li class="dropdown-divider"></li>
-                            <li class="dropdown-item"><i class="icon-wallet mr-2"></i> Account</li>
+                            <li class="dropdown-item"><i class="mr-2 icon-wallet"></i> Account</li>
                             <li class="dropdown-divider"></li>
-                            <li class="dropdown-item"><i class="icon-settings mr-2"></i> Setting</li>
+                            <li class="dropdown-item"><i class="mr-2 icon-settings"></i> Setting</li>
                             <li class="dropdown-divider"></li>
-                            <li class="dropdown-item"><i class="icon-power mr-2"></i> Logout</li>
+                            <li class="dropdown-item"><i class="mr-2 icon-power"></i> Logout</li>
                         </ul>
                     </li>
                 </ul>
@@ -152,14 +85,14 @@
 
                 <!--Start Dashboard Content-->
 
-                <div class="card mt-3">
+                <div class="mt-3 card">
                     <div class="card-content">
-                        <div class="row row-group m-0">
+                        <div class="m-0 row row-group">
                             <div class="col-12 col-lg-6 col-xl-3 border-light">
                                 <div class="card-body">
-                                    <h5 class="text-white mb-0">9526 <span class="float-right"><i
+                                    <h5 class="mb-0 text-white">9526 <span class="float-right"><i
                                                 class="fa fa-shopping-cart"></i></span></h5>
-                                    <div class="progress my-3" style="height:3px;">
+                                    <div class="my-3 progress" style="height:3px;">
                                         <div class="progress-bar" style="width:55%"></div>
                                     </div>
                                     <p class="mb-0 text-white small-font">Total Orders <span class="float-right">+4.2% <i
@@ -168,9 +101,9 @@
                             </div>
                             <div class="col-12 col-lg-6 col-xl-3 border-light">
                                 <div class="card-body">
-                                    <h5 class="text-white mb-0">8323 <span class="float-right"><i
+                                    <h5 class="mb-0 text-white">8323 <span class="float-right"><i
                                                 class="fa fa-usd"></i></span></h5>
-                                    <div class="progress my-3" style="height:3px;">
+                                    <div class="my-3 progress" style="height:3px;">
                                         <div class="progress-bar" style="width:55%"></div>
                                     </div>
                                     <p class="mb-0 text-white small-font">Total Revenue <span class="float-right">+1.2% <i
@@ -179,9 +112,9 @@
                             </div>
                             <div class="col-12 col-lg-6 col-xl-3 border-light">
                                 <div class="card-body">
-                                    <h5 class="text-white mb-0">6200 <span class="float-right"><i
+                                    <h5 class="mb-0 text-white">6200 <span class="float-right"><i
                                                 class="fa fa-eye"></i></span></h5>
-                                    <div class="progress my-3" style="height:3px;">
+                                    <div class="my-3 progress" style="height:3px;">
                                         <div class="progress-bar" style="width:55%"></div>
                                     </div>
                                     <p class="mb-0 text-white small-font">Visitors <span class="float-right">+5.2% <i
@@ -190,9 +123,9 @@
                             </div>
                             <div class="col-12 col-lg-6 col-xl-3 border-light">
                                 <div class="card-body">
-                                    <h5 class="text-white mb-0">5630 <span class="float-right"><i
+                                    <h5 class="mb-0 text-white">5630 <span class="float-right"><i
                                                 class="fa fa-envira"></i></span></h5>
-                                    <div class="progress my-3" style="height:3px;">
+                                    <div class="my-3 progress" style="height:3px;">
                                         <div class="progress-bar" style="width:55%"></div>
                                     </div>
                                     <p class="mb-0 text-white small-font">Messages <span class="float-right">+2.2% <i
@@ -225,9 +158,9 @@
                             </div>
                             <div class="card-body">
                                 <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="fa fa-circle mr-2 text-white"></i>New Visitor
+                                    <li class="list-inline-item"><i class="mr-2 text-white fa fa-circle"></i>New Visitor
                                     </li>
-                                    <li class="list-inline-item"><i class="fa fa-circle mr-2 text-light"></i>Old Visitor
+                                    <li class="list-inline-item"><i class="mr-2 fa fa-circle text-light"></i>Old Visitor
                                     </li>
                                 </ul>
                                 <div class="chart-container-1">
@@ -235,7 +168,7 @@
                                 </div>
                             </div>
 
-                            <div class="row m-0 row-group text-center border-top border-light-3">
+                            <div class="m-0 text-center row row-group border-top border-light-3">
                                 <div class="col-12 col-lg-4">
                                     <div class="p-3">
                                         <h5 class="mb-0">45.87M</h5>
@@ -290,22 +223,22 @@
                                 <table class="table align-items-center">
                                     <tbody>
                                         <tr>
-                                            <td><i class="fa fa-circle text-white mr-2"></i> Direct</td>
+                                            <td><i class="mr-2 text-white fa fa-circle"></i> Direct</td>
                                             <td>$5856</td>
                                             <td>+55%</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="fa fa-circle text-light-1 mr-2"></i>Affiliate</td>
+                                            <td><i class="mr-2 fa fa-circle text-light-1"></i>Affiliate</td>
                                             <td>$2602</td>
                                             <td>+25%</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="fa fa-circle text-light-2 mr-2"></i>E-mail</td>
+                                            <td><i class="mr-2 fa fa-circle text-light-2"></i>E-mail</td>
                                             <td>$1802</td>
                                             <td>+15%</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="fa fa-circle text-light-3 mr-2"></i>Other</td>
+                                            <td><i class="mr-2 fa fa-circle text-light-3"></i>Other</td>
                                             <td>$1105</td>
                                             <td>+5%</td>
                                         </tr>
@@ -357,7 +290,7 @@
                                             <td>$ 1250.00</td>
                                             <td>03 Aug 2017</td>
                                             <td>
-                                                <div class="progress shadow" style="height: 3px;">
+                                                <div class="shadow progress" style="height: 3px;">
                                                     <div class="progress-bar" role="progressbar" style="width: 90%">
                                                     </div>
                                                 </div>
@@ -372,7 +305,7 @@
                                             <td>$ 1500.00</td>
                                             <td>03 Aug 2017</td>
                                             <td>
-                                                <div class="progress shadow" style="height: 3px;">
+                                                <div class="shadow progress" style="height: 3px;">
                                                     <div class="progress-bar" role="progressbar" style="width: 60%">
                                                     </div>
                                                 </div>
@@ -387,7 +320,7 @@
                                             <td>$ 1400.00</td>
                                             <td>03 Aug 2017</td>
                                             <td>
-                                                <div class="progress shadow" style="height: 3px;">
+                                                <div class="shadow progress" style="height: 3px;">
                                                     <div class="progress-bar" role="progressbar" style="width: 70%">
                                                     </div>
                                                 </div>
@@ -402,7 +335,7 @@
                                             <td>$ 1200.00</td>
                                             <td>03 Aug 2017</td>
                                             <td>
-                                                <div class="progress shadow" style="height: 3px;">
+                                                <div class="shadow progress" style="height: 3px;">
                                                     <div class="progress-bar" role="progressbar" style="width: 100%">
                                                     </div>
                                                 </div>
@@ -417,7 +350,7 @@
                                             <td>$ 1800.00</td>
                                             <td>03 Aug 2017</td>
                                             <td>
-                                                <div class="progress shadow" style="height: 3px;">
+                                                <div class="shadow progress" style="height: 3px;">
                                                     <div class="progress-bar" role="progressbar" style="width: 40%">
                                                     </div>
                                                 </div>
@@ -432,7 +365,7 @@
                                             <td>$ 1200.00</td>
                                             <td>03 Aug 2017</td>
                                             <td>
-                                                <div class="progress shadow" style="height: 3px;">
+                                                <div class="shadow progress" style="height: 3px;">
                                                     <div class="progress-bar" role="progressbar" style="width: 100%">
                                                     </div>
                                                 </div>
