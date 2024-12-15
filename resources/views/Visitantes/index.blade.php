@@ -9,16 +9,20 @@
             </div>
             <div class="container text-center">
                 <div class="d-flex flex-column justify-content-center align-items-center">
-                    <h1 data-aos="fade-up">Bem-vindo ao <span>QuickStart</span></h1>
-                    <p data-aos="fade-up" data-aos-delay="100">Comece seu projeto rapidamente agora e prepare o palco para o
-                        sucesso<br></p>
+                    <h1 data-aos="fade-up">Bem-vindo ao <span>Tuwala Kukula</span></h1>
+                    <p data-aos="fade-up" data-aos-delay="100">Comece seu aprendizado connosco e prepare o palco para o sucesso<br></p>
                     <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
                         <a href="#about" class="btn-get-started">Começar</a>
+                       
+                        <!--
                         <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
                             class="glightbox btn-watch-video d-flex align-items-center"><i
-                                class="bi bi-play-circle"></i><span>Assistir Vídeo</span></a>
-                    </div>
-                    <img src="assets/img/hero-services-img.webp" class="img-fluid hero-img" alt=""
+                                class="bi bi-play-circle"></i><span>Saiba Mais</span></a> 
+                            -->
+
+                        <a style="cursor: pointer" class="glightbox btn-watch-video d-flex align-items-center "><span>Saiba Mais</span></a>
+                    </div><br>
+                    <img src="assets/img/1 (1).jpg" class="img-fluid hero-img" alt=""
                         data-aos="zoom-out" data-aos-delay="300">
                 </div>
             </div>
@@ -32,9 +36,8 @@
                         <div class="service-item d-flex">
                             <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
                             <div>
-                                <h4 class="title"><a href="#" class="stretched-link">Lorem Ipsum</a></h4>
-                                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                    excepturi</p>
+                                <h4 class="title"><a href="#" class="stretched-link">Alunos</a></h4>
+                                <p class="description">Interaja com alunos que compartilham as mesmas disciplinas, dúvidas e dificuldades que você! </p>
                             </div>
                         </div>
                     </div><!-- Fim do item de serviço -->
@@ -43,9 +46,8 @@
                         <div class="service-item d-flex">
                             <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
                             <div>
-                                <h4 class="title"><a href="#" class="stretched-link">Dolor Sitema</a></h4>
-                                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip exa</p>
+                                <h4 class="title"><a href="#" class="stretched-link">Professores</a></h4>
+                                <p class="description">Fale com professores especializados em diversas áreas e aprenda com eles!</p>
                             </div>
                         </div>
                     </div><!-- Fim do item de serviço -->
@@ -54,9 +56,8 @@
                         <div class="service-item d-flex">
                             <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
                             <div>
-                                <h4 class="title"><a href="#" class="stretched-link">Sed ut perspiciatis</a></h4>
-                                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                </p>
+                                <h4 class="title"><a href="#" class="stretched-link">Comunidades</a></h4>
+                                <p class="description">Junte-se a comunidades educacionais e aprenda com diversas pessoas ao redor do mundo!</p>
                             </div>
                         </div>
                     </div><!-- Fim do item de serviço -->
@@ -68,25 +69,20 @@
         <section id="about" class="about section">
             <div class="container">
                 <div class="row gy-4">
+                   
                     <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-                        <p class="who-we-are">Quem Somos</p>
-                        <h3>Desbloqueando Potencial com Estratégia Criativa</h3>
+                        <p class="who-we-are">Quem Nós Somos</p>
+                        <h3>Tuwala Kukula: Solte seu Potencial com Criatividade</h3>
                         <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
+                          O Tuwala Kukula é uma plataforma dedicada para os alunos de ensino médio e para aqueles que desejam ingressar nele. Aqui você encontra: 
                         </p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
-                                    velit.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda
-                                    mastiro dolore eu fugiat nulla pariatur.</span></li>
+                          <li><i class="bi bi-check-circle"></i> <span>Escolas de ensino médio especializadas em diversas áreas.</span></li>
+                          <li><i class="bi bi-check-circle"></i> <span>Materiais didáticos e materias de apoio em formato digital.</span></li>
+                          <li><i class="bi bi-check-circle"></i> <span>Comunidades inteiras onde o foco é a partilha de informações relativas ao mundo académico .</span></li>
                         </ul>
-                        <a href="#" class="read-more"><span>Leia Mais</span><i class="bi bi-arrow-right"></i></a>
-                    </div>
+                        <a href="#" class="read-more"><span>Saiba Mais </span><i class="bi bi-arrow-right"></i></a>
+                      </div>
 
                     <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
                         <div class="row gy-4">
@@ -109,6 +105,7 @@
             </div>
         </section><!-- /Seção Sobre -->
 
+        <---
         <!-- Seção de Clientes -->
         <section id="clients" class="clients section">
             <div class="container" data-aos="fade-up">
@@ -138,14 +135,16 @@
                     </div><!-- Fim do item de cliente -->
                 </div>
             </div>
-        </section><!-- /Seção de Clientes -->
+        </section>
+        -->
+        <!-- /Seção de Clientes -->
 
         <!-- Seção de Funcionalidades -->
         <section id="features" class="features section">
             <!-- Título da Seção -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Funcionalidades</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>Acompanhe as funcionalidades que a plataforma oferece. Saiba sobre: </p>
             </div><!-- Fim do Título da Seção -->
 
             <div class="container">
@@ -156,11 +155,9 @@
                                 <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
                                     <i class="bi bi-binoculars"></i>
                                     <div>
-                                        <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
+                                        <h4 class="d-none d-lg-block">Escolas</h4>
                                         <p>
-                                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                            in reprehenderit in voluptate
-                                            velit esse cillum dolore eu fugiat nulla pariatur
+                                            Descubra quais são as melhores escolas de ensino médio e escolha a ideal para si!
                                         </p>
                                     </div>
                                 </a>
@@ -169,11 +166,9 @@
                                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
                                     <i class="bi bi-box-seam"></i>
                                     <div>
-                                        <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
+                                        <h4 class="d-none d-lg-block">Máterias Didáticos</h4>
                                         <p>
-                                            Recusandae atque nihil. Delectus vitae non similique magnam molestiae sapiente
-                                            similique
-                                            tenetur aut voluptates sed voluptas ipsum voluptas
+                                            Esteja a par de conteúdos importantes para a evolução académica e profissional!
                                         </p>
                                     </div>
                                 </a>
@@ -182,11 +177,9 @@
                                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
                                     <i class="bi bi-brightness-high"></i>
                                     <div>
-                                        <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
+                                        <h4 class="d-none d-lg-block">Experiência Conjunta</h4>
                                         <p>
-                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                            deserunt mollit anim id est laborum
-                                            Debitis nulla est maxime voluptas dolor aut
+                                            Embarque connosco neste vasto mar de conhecimento e evolução nunca antes visto e partilhe a sua experiência académica!
                                         </p>
                                     </div>
                                 </a>
@@ -218,17 +211,14 @@
             <div class="container">
                 <div class="row gy-4 justify-content-between features-item">
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <img src="assets/img/features-1.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/features-1.jpg" class="img-fluid" alt="" height="600" width="600">
                     </div>
 
                     <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="content">
-                            <h3>Corporis temporibus maiores provident</h3>
+                            <h3>Usando a tecnologia de maneira efetiva e dinámica</h3>
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident.
+                                Imagine ter acesso a uma plataforma onde pode ter diversos contéudos didáticos comprovados por profissionais e aprende-los de forma rápida e eficiente? Tudo isto está apenas à um clique de distância! 
                             </p>
                             <a href="#" class="btn more-btn">Saiba Mais</a>
                         </div>
@@ -239,21 +229,21 @@
                     <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1" data-aos="fade-up"
                         data-aos-delay="100">
                         <div class="content">
-                            <h3>Neque ipsum omnis sapiente quod quia dicta</h3>
+                            <h3>Use o seu tempo de maneira razoável</h3>
                             <p>
-                                Quidem qui dolore incidunt aut. In assumenda harum id iusto lorena plasico mares
+                                Além dos diversos contéudos didáticos que o ajudarão, também pode ter acesso a:
                             </p>
                             <ul>
-                                <li><i class="bi bi-easel flex-shrink-0"></i> Et corporis ea eveniet ducimus.</li>
-                                <li><i class="bi bi-patch-check flex-shrink-0"></i> Exercitationem dolorem sapiente.</li>
-                                <li><i class="bi bi-brightness-high flex-shrink-0"></i> Veniam quia modi magnam.</li>
+                                <li><i class="bi bi-easel flex-shrink-0"></i> Resumos simples e esquematizada.</li>
+                                <li><i class="bi bi-patch-check flex-shrink-0"></i> Exercícios para testar o seu aprendizado.</li>
+                                <li><i class="bi bi-brightness-high flex-shrink-0"></i>Simulações de exames práticos e teóricos .</li>
                             </ul>
                             <a href="#" class="btn more-btn">Saiba Mais</a>
                         </div>
                     </div>
 
                     <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/1 (4).jpg" class="img-fluid" alt="" height="800" width="800">
                     </div>
                 </div><!-- Item de Funcionalidade -->
             </div>
@@ -348,141 +338,9 @@
 
                 </div>
             </div>
-        </section><!-- /Seção de Serviços --> <!-- Seção de Mais Recursos -->
-        <section id="more-features" class="more-features section">
-            <div class="container">
-                <div class="row justify-content-around gy-4">
-
-                    <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up"
-                        data-aos-delay="100">
-                        <h3>Enim quis est voluptatibus aliquid consequatur</h3>
-                        <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima
-                            temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
-
-                        <div class="row">
-
-                            <div class="col-lg-6 icon-box d-flex">
-                                <i class="bi bi-easel flex-shrink-0"></i>
-                                <div>
-                                    <h4>Lorem Ipsum</h4>
-                                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias </p>
-                                </div>
-                            </div><!-- Fim do Ícone -->
-
-                            <div class="col-lg-6 icon-box d-flex">
-                                <i class="bi bi-patch-check flex-shrink-0"></i>
-                                <div>
-                                    <h4>Nemo Enim</h4>
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiise</p>
-                                </div>
-                            </div><!-- Fim do Ícone -->
-
-                            <div class="col-lg-6 icon-box d-flex">
-                                <i class="bi bi-brightness-high flex-shrink-0"></i>
-                                <div>
-                                    <h4>Dine Pad</h4>
-                                    <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit</p>
-                                </div>
-                            </div><!-- Fim do Ícone -->
-
-                            <div class="col-lg-6 icon-box d-flex">
-                                <i class="bi bi-brightness-high flex-shrink-0"></i>
-                                <div>
-                                    <h4>Tride clov</h4>
-                                    <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit</p>
-                                </div>
-                            </div><!-- Fim do Ícone -->
-
-                        </div>
-
-                    </div>
-
-                    <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/img/features-3.jpg" alt="">
-                    </div>
-
-                </div>
-            </div>
-        </section><!-- /Seção de Mais Recursos --> <!-- Seção de Preços -->
-        <section id="pricing" class="pricing section"> <!-- Título da Seção -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Preços</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- Fim do Título da Seção -->
-            <div class="container">
-                <div class="row gy-4">
-
-                    <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="pricing-item">
-                            <h3>Plano Gratuito</h3>
-                            <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex
-                                strater</p>
-                            <h4><sup>R$</sup>0<span> / mês</span></h4>
-                            <a href="#" class="cta-btn">Iniciar teste gratuito</a>
-                            <p class="text-center small">Nenhum cartão de crédito necessário</p>
-                            <ul>
-                                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span>
-                                </li>
-                                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span>
-                                </li>
-                                <li class="na"><i class="bi bi-x"></i> <span>Voluptate id voluptas qui sed aperiam
-                                        rerum</span></li>
-                                <li class="na"><i class="bi bi-x"></i> <span>Iure nihil dolores recusandae odit
-                                        voluptatibus</span></li>
-                            </ul>
-                        </div>
-                    </div><!-- Fim do Item de Preços -->
-
-                    <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="pricing-item featured">
-                            <h3>Plano Padrão</h3>
-                            <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex
-                                strater</p>
-                            <h4><sup>R$</sup>29<span> / mês</span></h4>
-                            <a href="#" class="cta-btn">Iniciar teste gratuito</a>
-                            <p class="text-center small">Nenhum cartão de crédito necessário</p>
-                            <ul>
-                                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                                <li class="na"><i class="bi bi-x"></i> <span>Voluptate id voluptas qui sed aperiam
-                                        rerum</span></li>
-                                <li class="na"><i class="bi bi-x"></i> <span>Iure nihil dolores recusandae odit
-                                        voluptatibus</span></li>
-                            </ul>
-                        </div>
-                    </div><!-- Fim do Item de Preços -->
-
-                    <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="pricing-item">
-                            <h3>Plano Premium</h3>
-                            <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex
-                                strater</p>
-                            <h4><sup>R$</sup>49<span> / mês</span></h4>
-                            <a href="#" class="cta-btn">Iniciar teste gratuito</a>
-                            <p class="text-center small">Nenhum cartão de crédito necessário</p>
-                            <ul>
-                                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                                <li><i class="bi bi-check"></i> <span>Voluptate id voluptas qui sed aperiam rerum</span>
-                                </li>
-                                <li><i class="bi bi-check"></i> <span>Iure nihil dolores recusandae odit
-                                        voluptatibus</span></li>
-                            </ul>
-                        </div>
-                    </div><!-- Fim do Item de Preços -->
-
-                </div>
-            </div>
-        </section><!-- /Seção de Preços -->
+        </section><!-- /Seção de Serviços --> 
+        
+        
 
 
         <!-- Seção FAQ -->
@@ -731,7 +589,7 @@
             <!-- Título da Seção -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Contato</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>Fale connosco e informe-nos do seu estado</p>
             </div><!-- Fim do Título da Seção -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -743,7 +601,7 @@
                             data-aos="fade-up" data-aos-delay="200">
                             <i class="bi bi-geo-alt"></i>
                             <h3>Endereço</h3>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+                            <p>Luanda, Angola</p>
                         </div>
                     </div><!-- Fim do Item de Informação -->
 
@@ -752,7 +610,7 @@
                             data-aos="fade-up" data-aos-delay="300">
                             <i class="bi bi-telephone"></i>
                             <h3>Ligue para Nós</h3>
-                            <p>+1 5589 55488 55</p>
+                            <p>+244 941 051 108, +244 949 214 333</p>
                         </div>
                     </div><!-- Fim do Item de Informação -->
 
@@ -761,7 +619,7 @@
                             data-aos="fade-up" data-aos-delay="400">
                             <i class="bi bi-envelope"></i>
                             <h3>Email</h3>
-                            <p>info@example.com</p>
+                            <p>tuwalakukula02@example.com</p>
                         </div>
                     </div><!-- Fim do Item de Informação -->
 
