@@ -20,7 +20,7 @@
                                 class="bi bi-play-circle"></i><span>Saiba Mais</span></a> 
                             -->
 
-                        <a style="cursor: pointer" class="glightbox btn-watch-video d-flex align-items-center "><span>Saiba Mais</span></a>
+                        <a style="cursor: pointer" class="glightbox btn-watch-video d-flex align-items-center" ><span>Saiba Mais</span></a>
                     </div><br>
                     <img src="assets/img/1 (1).jpg" class="img-fluid hero-img" alt=""
                         data-aos="zoom-out" data-aos-delay="300">
@@ -103,36 +103,36 @@
                     </div>
                 </div>
             </div>
-        </section><!-- /Seção Sobre -->
+        </section><br><!-- /Seção Sobre -->
 
-        <---
-        <!-- Seção de Clientes -->
+        <!---
+        <-- Seção de Clientes ->
         <section id="clients" class="clients section">
             <div class="container" data-aos="fade-up">
                 <div class="row gy-4">
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-                    </div><!-- Fim do item de cliente -->
+                    </div><-- Fim do item de cliente ->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-                    </div><!-- Fim do item de cliente -->
+                    </div><-- Fim do item de cliente ->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-                    </div><!-- Fim do item de cliente -->
+                    </div><-- Fim do item de cliente ->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-                    </div><!-- Fim do item de cliente -->
+                    </div><-- Fim do item de cliente ->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-                    </div><!-- Fim do item de cliente -->
+                    </div><-- Fim do item de cliente ->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-                    </div><!-- Fim do item de cliente -->
+                    </div><-- Fim do item de cliente ->
                 </div>
             </div>
         </section>
@@ -234,7 +234,7 @@
                                 Além dos diversos contéudos didáticos que o ajudarão, também pode ter acesso a:
                             </p>
                             <ul>
-                                <li><i class="bi bi-easel flex-shrink-0"></i> Resumos simples e esquematizada.</li>
+                                <li><i class="bi bi-easel flex-shrink-0"></i> Resumos simples e esquematizados.</li>
                                 <li><i class="bi bi-patch-check flex-shrink-0"></i> Exercícios para testar o seu aprendizado.</li>
                                 <li><i class="bi bi-brightness-high flex-shrink-0"></i>Simulações de exames práticos e teóricos .</li>
                             </ul>
