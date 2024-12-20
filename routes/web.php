@@ -17,6 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return redirect()->route('visitantes');
 });
+
+Route::get('/index2', function () {
+    return view('visitantes.index2');
+});
+
 Route::get('/visitantes', [VisitanteController::class, 'index'])->name('visitantes');
 
 Route::middleware([

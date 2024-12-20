@@ -12,6 +12,7 @@
           <li><a href="#about">Sobre Nós</a></li>
           <li><a href="#features">Funcionalidades</a></li>
           <li><a href="#services">Serviços</a></li>
+          <li></li>
           <li class="dropdown"><a href="#"><span>Mais</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#faq">Perguntas Frequentes</a></li>
