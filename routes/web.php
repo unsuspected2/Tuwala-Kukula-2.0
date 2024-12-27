@@ -15,12 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return redirect()->route('visitantes');
+    return redirect()->route('teste');
 });
 
 Route::get('/index2', function () {
     return view('visitantes.index2');
-});
+})->name('teste');
 
 Route::get('/visitantes', [VisitanteController::class, 'index'])->name('visitantes');
 
