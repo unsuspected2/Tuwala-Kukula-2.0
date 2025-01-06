@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return redirect()->route('teste');
+    return redirect()->route('visitantes');
 });
 
 Route::get('/index2', function () {
