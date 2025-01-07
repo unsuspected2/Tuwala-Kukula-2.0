@@ -12,12 +12,12 @@
                     <h1 data-aos="fade-up">Bem-vindo ao <span>Tuwala Kukula</span></h1>
                     <p data-aos="fade-up" data-aos-delay="100">Comece seu aprendizado connosco e prepare o palco para o sucesso<br></p>
                     <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-                        <a href="#about" class="btn-get-started">Começar</a>
-                       
+                        <a href="{{ route('login') }}" class="btn-get-started">Começar</a>
+
                         <!--
                         <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
                             class="glightbox btn-watch-video d-flex align-items-center"><i
-                                class="bi bi-play-circle"></i><span>Saiba Mais</span></a> 
+                                class="bi bi-play-circle"></i><span>Saiba Mais</span></a>
                             -->
 
                         <a style="cursor: pointer" class="glightbox btn-watch-video d-flex align-items-center" ><span>Saiba Mais</span></a>
@@ -34,7 +34,7 @@
                 <div class="row gy-4">
                     <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-item d-flex">
-                            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+                            <div class="flex-shrink-0 icon"><i class="bi bi-briefcase"></i></div>
                             <div>
                                 <h4 class="title"><a href="#" class="stretched-link">Alunos</a></h4>
                                 <p class="description">Interaja com alunos que compartilham as mesmas disciplinas, dúvidas e dificuldades que você! </p>
@@ -44,7 +44,7 @@
 
                     <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="service-item d-flex">
-                            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+                            <div class="flex-shrink-0 icon"><i class="bi bi-card-checklist"></i></div>
                             <div>
                                 <h4 class="title"><a href="#" class="stretched-link">Professores</a></h4>
                                 <p class="description">Fale com professores especializados em diversas áreas e aprenda com eles!</p>
@@ -54,7 +54,7 @@
 
                     <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item d-flex">
-                            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+                            <div class="flex-shrink-0 icon"><i class="bi bi-bar-chart"></i></div>
                             <div>
                                 <h4 class="title"><a href="#" class="stretched-link">Comunidades</a></h4>
                                 <p class="description">Junte-se a comunidades educacionais e aprenda com diversas pessoas ao redor do mundo!</p>
@@ -69,12 +69,12 @@
         <section id="about" class="about section">
             <div class="container">
                 <div class="row gy-4">
-                   
+
                     <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
                         <p class="who-we-are">Quem Nós Somos</p>
                         <h3>Tuwala Kukula: Solte seu Potencial com Criatividade</h3>
                         <p class="fst-italic">
-                          O Tuwala Kukula é uma plataforma dedicada para os alunos de ensino médio e para aqueles que desejam ingressar nele. Aqui você encontra: 
+                          O Tuwala Kukula é uma plataforma dedicada para os alunos de ensino médio e para aqueles que desejam ingressar nele. Aqui você encontra:
                         </p>
                         <ul>
                           <li><i class="bi bi-check-circle"></i> <span>Escolas de ensino médio especializadas em diversas áreas.</span></li>
@@ -218,7 +218,7 @@
                         <div class="content">
                             <h3>Usando a tecnologia de maneira efetiva e dinámica</h3>
                             <p>
-                                Imagine ter acesso a uma plataforma onde pode ter diversos contéudos didáticos comprovados por profissionais e aprende-los de forma rápida e eficiente? Tudo isto está apenas à um clique de distância! 
+                                Imagine ter acesso a uma plataforma onde pode ter diversos contéudos didáticos comprovados por profissionais e aprende-los de forma rápida e eficiente? Tudo isto está apenas à um clique de distância!
                             </p>
                             <a href="#" class="btn more-btn">Saiba Mais</a>
                         </div>
@@ -226,7 +226,7 @@
                 </div><!-- Item de Funcionalidade -->
 
                 <div class="row gy-4 justify-content-between features-item">
-                    <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1" data-aos="fade-up"
+                    <div class="order-2 col-lg-5 d-flex align-items-center order-lg-1" data-aos="fade-up"
                         data-aos-delay="100">
                         <div class="content">
                             <h3>Use o seu tempo de maneira razoável</h3>
@@ -234,15 +234,15 @@
                                 Além dos diversos contéudos didáticos que o ajudarão, também pode ter acesso a:
                             </p>
                             <ul>
-                                <li><i class="bi bi-easel flex-shrink-0"></i> Resumos simples e esquematizados.</li>
-                                <li><i class="bi bi-patch-check flex-shrink-0"></i> Exercícios para testar o seu aprendizado.</li>
-                                <li><i class="bi bi-brightness-high flex-shrink-0"></i>Simulações de exames práticos e teóricos .</li>
+                                <li><i class="flex-shrink-0 bi bi-easel"></i> Resumos simples e esquematizados.</li>
+                                <li><i class="flex-shrink-0 bi bi-patch-check"></i> Exercícios para testar o seu aprendizado.</li>
+                                <li><i class="flex-shrink-0 bi bi-brightness-high"></i>Simulações de exames práticos e teóricos .</li>
                             </ul>
                             <a href="#" class="btn more-btn">Saiba Mais</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="order-1 col-lg-6 order-lg-2" data-aos="fade-up" data-aos-delay="200">
                         <img src="assets/img/1 (4).jpg" class="img-fluid" alt="" height="800" width="800">
                     </div>
                 </div><!-- Item de Funcionalidade -->
@@ -338,9 +338,9 @@
 
                 </div>
             </div>
-        </section><!-- /Seção de Serviços --> 
-        
-        
+        </section><!-- /Seção de Serviços -->
+
+
 
 
         <!-- Seção FAQ -->
@@ -482,7 +482,7 @@
                                     rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
                                     risus at semper.
                                 </p>
-                                <div class="profile mt-auto">
+                                <div class="mt-auto profile">
                                     <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img"
                                         alt="">
                                     <h3>Saul Goodman</h3>
@@ -503,7 +503,7 @@
                                     cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
                                     legam anim culpa.
                                 </p>
-                                <div class="profile mt-auto">
+                                <div class="mt-auto profile">
                                     <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img"
                                         alt="">
                                     <h3>Sara Wilsson</h3>
@@ -523,7 +523,7 @@
                                     Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam
                                     duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                                 </p>
-                                <div class="profile mt-auto">
+                                <div class="mt-auto profile">
                                     <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img"
                                         alt="">
                                     <h3>Jena Karlis</h3>
@@ -544,7 +544,7 @@
                                     minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore
                                     labore illum veniam.
                                 </p>
-                                <div class="profile mt-auto">
+                                <div class="mt-auto profile">
                                     <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img"
                                         alt="">
                                     <h3>Matt Brandon</h3>
@@ -565,7 +565,7 @@
                                     veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
                                     culpa fore nisi cillum quid.
                                 </p>
-                                <div class="profile mt-auto">
+                                <div class="mt-auto profile">
                                     <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img"
                                         alt="">
                                     <h3>John Larson</h3>
@@ -625,7 +625,7 @@
 
                 </div>
 
-                <div class="row gy-4 mt-1">
+                <div class="mt-1 row gy-4">
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1spt-BR!2sbr!4v1676961268712!5m2!1spt-BR!2sbr"
@@ -657,7 +657,7 @@
                                     <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required=""></textarea>
                                 </div>
 
-                                <div class="col-md-12 text-center">
+                                <div class="text-center col-md-12">
                                     <div class="loading">Carregando</div>
                                     <div class="error-message"></div>
                                     <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
