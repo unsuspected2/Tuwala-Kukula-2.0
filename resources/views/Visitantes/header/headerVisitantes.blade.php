@@ -37,11 +37,11 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-<!--  HEAD -->
+<<<<<<< HEAD
       <a class="btn-getstarted" href="index.html#about">Começar</a>
-      
+=======
       <a class="btn-getstarted" href="{{route('register')}}">register</a>
-<!--  origin/josaid --> 
+>>>>>>> origin/josaid
 
     </div>
   </header>
