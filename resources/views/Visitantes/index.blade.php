@@ -640,7 +640,7 @@
                             data-aos="fade-up" data-aos-delay="400">
                             <i class="bi bi-envelope"></i>
                             <h3>Email</h3>
-                            <p>tuwalakukula02@example.com</p>
+                            <p>tuwalakukula02@gmail.com</p>
                         </div>
                     </div><!-- Fim do Item de Informação -->
 
