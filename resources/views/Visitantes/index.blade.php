@@ -95,24 +95,25 @@
 
                     <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
                         <div class="row gy-4">
+                            <!-- Primeira linha -->
                             <div class="col-lg-6">
-                                <img src="{{ asset('site/363937550_681659684005029_553746719305288095_n.jpg') }}"
-                                    class="img-fluid" alt="">
+                                <img src="{{ asset('site/363937550_681659684005029_553746719305288095_n.jpg') }}" class="img-fluid" alt="">
                             </div>
                             <div class="col-lg-6">
-                                <div class="row gy-4">
-                                    <div class="col-lg-12">
-                                        <img src="{{ asset('site/286369400_1158502931666002_8668253778537648719_n.jpg') }}"
-                                            class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <img src="{{ asset('site/286595585_408987557810924_6464015949374315071_n.jpg') }}"
-                                            class="img-fluid" alt="">
-                                    </div>
-                                </div>
+                                <img src="{{ asset('site/professores.jpg') }}" class="img-fluid" alt="">
+                            </div>
+                    
+                            <!-- Segunda linha -->
+                            <div class="col-lg-6">
+                                <img src="{{ asset('site/286369400_1158502931666002_8668253778537648719_n.jpg') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="{{ asset('site/286595585_408987557810924_6464015949374315071_n.jpg') }}" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
+                    
+                    
                 </div>
             </div>
         </section><br><!-- /Seção Sobre -->
